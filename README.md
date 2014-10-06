@@ -10,6 +10,15 @@ Background/Client Info:
 
 
 Design Requirements:
+Sensor must be able to withstand a voltage of 7500 V
+Sensor must be able to measure a currents ranging between 0 and 5 Amps of pulsing current
+Device must be able to transmit signal from one corner of the fence to another, and also to the “mother” Arduino. Corners can be between 100 and 200 feet apart depending on the configuration of the fence.
+Arduino must be able to send an sms to the clients phone at least once a day and still remain under the budget.
+Device must be able to determine the location of short
+Device must be able to withstand wind, rain, heat, snow and frost
+Device must have a power source that can supply 5 volts to power the Arduino
+Production cost must be under 375 Dollars
+
 
 
 Design Alternatives/Brainstorming
