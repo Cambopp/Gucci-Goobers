@@ -10,14 +10,14 @@ Background/Client Info:
 
 
 Design Requirements:
-Sensor must be able to withstand a voltage of 7500 V
-Sensor must be able to measure a currents ranging between 0 and 5 Amps of pulsing current
-Device must be able to transmit signal from one corner of the fence to another, and also to the “mother” Arduino. Corners can be between 100 and 200 feet apart depending on the configuration of the fence.
+Sensor must be able to withstand a voltage of 12000 V.
+Sensor must be able to measure a currents ranging between 0 and 5 Amps of pulsing current.
+Device must be able to transmit signal from one corner of the fence to another, and also to the “mother” Arduino. Corners can be between 100 and 2000 feet apart depending on the configuration of the fence.
 Arduino must be able to send an sms to the clients phone at least once a day and still remain under the budget.
-Device must be able to determine the location of short
-Device must be able to withstand wind, rain, heat, snow and frost
-Device must have a power source that can supply 5 volts to power the Arduino
-Production cost must be under 375 Dollars
+Device must be able to determine the location of short.
+Device must be able to withstand wind, rain, heat, snow and frost.
+Device must have a power source that can supply 5 volts to power the Arduino.
+Production cost must be under 375 Dollars.
 
 
 
@@ -27,4 +27,17 @@ Design Alternatives/Brainstorming
 	Another innovation that our project hopes to accomplish is the power source.  Early ideas were about drawing power from the electric fence itself, however it was not feasible for this project because when the fence becomes grounded, the electronics would lose their power supply.  We talked to Tim May and he suggested using solar panels connected to a battery.  It would be very convenient and eco-friendly to have a sustainable energy source.  Once we have much of our electronics assembled we will use a multi-meter to determine the size of solar panels and battery that will be used. 
 	A very innovative idea that we had was to send notifications to Andre when his fence became grounded.  We struggle first thought to use an Arduino shield that would connect to the internet to send messages to Andre’s phone.  We came to the revelation that that is not thinking globally and even in Andre’s case there is probably no Wi-Fi connection at the actually location of the electric fence.  We then took into consideration using a GMS shield, however that would require obtaining a network connection, most likely with cell phone company.  That was determined to be impractical because it would require a constant financial cost.  Our focus thus turned towards wiring a prepaid cell phone to an Arduino to send messages.  That was not the best option for similar financial reasons, but might be more practical.  However through more research we found a much better option.  It is called an XBee.  It is used to communicate with multiple Arduino’s. It is relatively inexpensive and there are a wide variety to choose from to get exactly what will be needed.  Our idea is to use XBees to communicate to an Arduino located in or around Andre’s house that will either display a message about the status of the electric fence or will use Wi-Fi from the house to send a message to Andre’s phone. 
  
+Questions for Andre:
+1.	What Kind of Battery powers the fence?
+2.	What are the lengths of each side of the fence? 
+3.	What is the gauge of the wire? 
+4.	How often does the fence go down? 
+5.	What is the voltage applied to the fence? 
+6.	Do you know what the average current is in the wire? 
+Andre’s Answers
+1.	I have four fence chargers: two of my fence chargers are plug in 110 V two of them are solar with 6V batteries 
+2.	I constantly reconfigure fences depending on pasture arrangement lengths could be anywhere from 100 to 2000 feet
+3.	Wire is variable Perimeter wire is usually 12 or 14 gauge galvanize steel but sometimes is aluminum probably wire is usually 6 to 15 strands of very thin gauge stainless steel wire 
+4.	Fence can be discharged by a short as often as once a day and as rarely as once a month depending on the animals and their attitude
+5.	Sure what the voltage and current is I have a Zareba 6 joule energizer, a to acre pioneer and two others. My understanding is it’s very high voltage very low current short duration bursts. You could probably look up the specs. If you need the model numbers I can give them to you. (According to the specs of these energizers we need something that can withstand 12000 volts and measure in a range of 0-5 amps.)
 
