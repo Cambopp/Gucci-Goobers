@@ -29,15 +29,26 @@ Design Alternatives/Brainstorming
  
 Questions for Andre:
 1.	What Kind of Battery powers the fence?
+
 2.	What are the lengths of each side of the fence? 
+	
 3.	What is the gauge of the wire? 
+
 4.	How often does the fence go down? 
+
 5.	What is the voltage applied to the fence? 
+
 6.	Do you know what the average current is in the wire? 
+
 Andre’s Answers
+
 1.	I have four fence chargers: two of my fence chargers are plug in 110 V two of them are solar with 6V batteries 
+
 2.	I constantly reconfigure fences depending on pasture arrangement lengths could be anywhere from 100 to 2000 feet
-3.	Wire is variable Perimeter wire is usually 12 or 14 gauge galvanize steel but sometimes is aluminum probably wire is usually 6 to 15 strands of very thin gauge stainless steel wire 
+
+3.	Wire is variable Perimeter wire is usually 12 or 14 gauge galvanize steel but sometimes is aluminum probably wire is 		usually 6 to 15 strands of very thin gauge stainless steel wire 
+
 4.	Fence can be discharged by a short as often as once a day and as rarely as once a month depending on the animals and their attitude
-5.	Sure what the voltage and current is I have a Zareba 6 joule energizer, a to acre pioneer and two others. My understanding is it’s very high voltage very low current short duration bursts. You could probably look up the specs. If you need the model numbers I can give them to you. (According to the specs of these energizers we need something that can withstand 12000 volts and measure in a range of 0-5 amps.)
+
+5/6.	Sure what the voltage and current is I have a Zareba 6 joule energizer, a to acre pioneer and two others. My understanding is it’s very high voltage very low current short duration bursts. You could probably look up the specs. If you need the model numbers I can give them to you. (According to the specs of these energizers we need something that can withstand 12000 volts and measure in a range of 0-5 amps.)
 
