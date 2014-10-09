@@ -30,6 +30,7 @@ Design Alternatives/Brainstorming
 	Another innovation that our project hopes to accomplish is the power source.  Early ideas were about drawing power from the electric fence itself, however it was not feasible for this project because when the fence becomes grounded, the electronics would lose their power supply.  We talked to Tim May and he suggested using solar panels connected to a battery.  It would be very convenient and eco-friendly to have a sustainable energy source.  Once we have much of our electronics assembled we will use a multi-meter to determine the size of solar panels and battery that will be used. 
 	A very innovative idea that we had was to send notifications to Andre when his fence became grounded.  We struggle first thought to use an Arduino shield that would connect to the internet to send messages to Andre’s phone.  We came to the revelation that that is not thinking globally and even in Andre’s case there is probably no Wi-Fi connection at the actually location of the electric fence.  We then took into consideration using a GMS shield, however that would require obtaining a network connection, most likely with cell phone company.  That was determined to be impractical because it would require a constant financial cost.  Our focus thus turned towards wiring a prepaid cell phone to an Arduino to send messages.  That was not the best option for similar financial reasons, but might be more practical.  However through more research we found a much better option.  It is called an XBee.  It is used to communicate with multiple Arduino’s. It is relatively inexpensive and there are a wide variety to choose from to get exactly what will be needed.  Our idea is to use XBees to communicate to an Arduino located in or around Andre’s house that will either display a message about the status of the electric fence or will use Wi-Fi from the house to send a message to Andre’s phone. 
  
+#Interactions with Client:
 Questions for Andre:
 
 1.	What Kind of Battery powers the fence?
@@ -52,8 +53,8 @@ Andre’s Answers
 
 3.	Wire is variable Perimeter wire is usually 12 or 14 gauge galvanize steel but sometimes is aluminum probably wire is 		usually 6 to 15 strands of very thin gauge stainless steel wire 
 
-4.	Fence can be discharged by a short as often as once a day and as rarely as once a month depending on the animals and their attitude
+4.	Fence can be discharged by a short as often as once a day and as rarely as once a month depending on the animals and 		their attitude
 
-5/6.	Sure what the voltage and current is I have a Zareba 6 joule energizer, a to acre pioneer and two others. My understanding is it’s very high voltage very low current short duration bursts. You could probably look up the specs. If you need the model numbers I can give them to you. (According to the specs of these energizers we need something that can withstand 12000 volts and measure in a range of 0-5 amps.)
+5/6.	Sure what the voltage and current is I have a Zareba 6 joule energizer, a to acre pioneer and two others. My 			understanding is it’s very high voltage very low current short duration bursts. You could probably look up the specs. If 	you need the model numbers I can give them to you. (According to the specs of these energizers we need something that can 	withstand 12000 volts and measure in a range of 0-5 amps.)
 
 >>>>>>> origin/master
