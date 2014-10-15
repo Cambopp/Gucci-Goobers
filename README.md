@@ -13,16 +13,16 @@ https://guides.github.com/activities/hello-world/
 
 
 ##Design Requirements:
-Sensor must be able to withstand a voltage of 12000 V.
-Sensor must be able to measure a currents ranging between 0 and 5 Amps of pulsing current.
-Device must be able to transmit signal from one corner of the fence to another, and also to the “mother” Arduino. Corners can be between 100 and 2000 feet apart depending on the configuration of the fence.
-Arduino must be able to send an sms to the clients phone at least once a day and still remain under the budget.
-Device must be able to determine the location of short.
-Device must be able to withstand wind, rain, heat, snow and frost.
-Device must have a power source that can supply 5 volts to power the Arduino.
-Production cost must be under 375 Dollars.
-
-
+- The device must be able to: 
+  - transmit signal from one corner of the fence to another, and also to the “mother” Arduino. Corners can be between 100 and 2000 feet apart depending on the configuration of the fence.
+  - Determine the location of short.
+- The sensor must be able to:
+  - Withstand a voltage of 12000 V.
+  - Measure a currents ranging between 0 and 5 Amps of pulsing current.
+  - Withstand wind, rain, heat, snow and frost.
+- The power source must be able to supply 5 volts to power the Arduino.
+- The Arduino must be able to send an sms to the clients phone at least once a day and still remain under the budget.
+- The production cost must be under 375 Dollars.
 
 ##Design Alternatives/Brainstorming
   In the course of our design process there were a seemingly endless amount of ideas that came and passed. One of the first problems that we set out to solve was a way to measure the current or voltage on an electric fence in a cheap and accurate way.  Quickly it became apparent that a standard electrician’s voltmeter or multi-meter would not work on an electric fence due to the short duration of pulses that would damage this kind of equipment.  When looking at voltmeter that are made for electric fences run at a cost upward of 70 dollars.  That wasn’t at all within our budget, especially because we are looking to have as many as four measuring stations.   Our next idea came from the help of our professor.  A non-invasive current senor measures the magnetic field created by the electricity without actually touching or interfering with the fence itself.  They are cheap, about ten dollars, and effective as well as being unlikely to be damaged by the fence.  However we hit a snag with that idea which was that electric fences operate at low currents, as low as under one amp.  The common sensors we were finding operated at 30 amps or more.  Eventually we were able to find a senor that measures a maximum of five amps.  
