@@ -13,23 +13,35 @@ https://guides.github.com/activities/hello-world/
 
 
 ##Design Requirements:
-- The device must be able to: 
-  - transmit signal from one corner of the fence to another, and also to the “mother” Arduino. Corners can be between 100 and 2000 feet apart depending on the configuration of the fence.
-  - Determine the location of short.
-- The sensor must be able to:
-  - Withstand a voltage of 12000 V.
-  - Measure a currents ranging between 0 and 5 Amps of pulsing current.
-  - Withstand wind, rain, heat, snow and frost.
-- The power source must be able to supply 5 volts to power the Arduino.
-- The Arduino must be able to send an sms to the clients phone at least once a day and still remain under the budget.
-- The production cost must be under 375 Dollars.
+Sensor must be able to withstand a voltage of 12000 V.
+Sensor must be able to measure a currents ranging between 0 and 5 Amps of pulsing current.
+Device must be able to transmit signal from one corner of the fence to another, and also to the “mother” Arduino. Corners can be between 100 and 2000 feet apart depending on the configuration of the fence.
+Arduino must be able to send an sms to the clients phone at least once a day and still remain under the budget.
+Device must be able to determine the location of short.
+Device must be able to withstand wind, rain, heat, snow and frost.
+Device must have a power source that can supply 5 volts to power the Arduino.
+Production cost must be under 375 Dollars.
+
+
 
 ##Design Alternatives/Brainstorming
-  In the course of our design process there were a seemingly endless amount of ideas that came and passed. One of the first problems that we set out to solve was a way to measure the current or voltage on an electric fence in a cheap and accurate way.  Quickly it became apparent that a standard electrician’s voltmeter or multi-meter would not work on an electric fence due to the short duration of pulses that would damage this kind of equipment.  When looking at voltmeter that are made for electric fences run at a cost upward of 70 dollars.  That wasn’t at all within our budget, especially because we are looking to have as many as four measuring stations.   Our next idea came from the help of our professor.  A non-invasive current senor measures the magnetic field created by the electricity without actually touching or interfering with the fence itself.  They are cheap, about ten dollars, and effective as well as being unlikely to be damaged by the fence.  However we hit a snag with that idea which was that electric fences operate at low currents, as low as under one amp.  The common sensors we were finding operated at 30 amps or more.  Eventually we were able to find a senor that measures a maximum of five amps.  
-  In addition to simply detecting if an electric fence is grounded we hope to make the resolving of the problem itself more time efficient.  When a fence becomes grounded, someone must walk around the entire fence in search of what is causing the problem.  We wanted to minimized the area that person has to search.  Initially we hoped to be able to use some sort of algorithm that would determine exactly where in the fence to problem was occurring.  Upon further research, that was deemed very difficult and perhaps impossible given our budget.  If we could not be exact, we could at least reduce the search area.  By placing four measuring stations at equal intervals along the fence it will be possible to narrow down which fourth of the fence the problem is occurring at, saving time and energy.
-  Another innovation that our project hopes to accomplish is the power source.  Early ideas were about drawing power from the electric fence itself, however it was not feasible for this project because when the fence becomes grounded, the electronics would lose their power supply.  We talked to Tim May and he suggested using solar panels connected to a battery.  It would be very convenient and eco-friendly to have a sustainable energy source.  Once we have much of our electronics assembled we will use a multi-meter to determine the size of solar panels and battery that will be used. 
-  A very innovative idea that we had was to send notifications to Andre when his fence became grounded.  We struggle first thought to use an Arduino shield that would connect to the internet to send messages to Andre’s phone.  We came to the revelation that that is not thinking globally and even in Andre’s case there is probably no Wi-Fi connection at the actually location of the electric fence.  We then took into consideration using a GMS shield, however that would require obtaining a network connection, most likely with cell phone company.  That was determined to be impractical because it would require a constant financial cost.  Our focus thus turned towards wiring a prepaid cell phone to an Arduino to send messages.  That was not the best option for similar financial reasons, but might be more practical.  However through more research we found a much better option.  It is called an XBee.  It is used to communicate with multiple Arduino’s. It is relatively inexpensive and there are a wide variety to choose from to get exactly what will be needed.  Our idea is to use XBees to communicate to an Arduino located in or around Andre’s house that will either display a message about the status of the electric fence or will use Wi-Fi from the house to send a message to Andre’s phone. 
- 
+- Measuring current/voltage
+  - Standard voltmeter or multimeter: The quick pulses of an electric fence would damage these.
+  - Specialized voltmeter for an electric fence: This was upward of 70$ and not within budget since our project requires four of them.
+  - Non-invasive current sensor(5 Amps maximum): This would be unlikely to be damaged because it does not directly touch the fence and having a sensor that works with low current would give a more accurate reading compare to sensor that read up to 30 Amphere.
+- Minimizing search area: When a fence becomes grounded, someone must walk around the entire fence in search of what is causing the problem. We wanted to minimized the area that person has to search.
+  - Algorithim: An idea was to derived an algorithim that could tell where the grounding issue occured between two sensors.
+  - Four sensors: Putting four sensors along the fence would allow us to determine beetween what two sensors the grounding occured at. That way only one fourth of the fence needs to be searched for problems.
+- Power source
+  - Electric fence: Early ideas were about drawing power from the electric fence itself, however it was not feasible for this project because when the fence becomes grounded, the electronics would lose their power supply.
+  - Solar panel: Solar panels would be environentaly friendly but could be unreliable at night and on cloudy days.
+  - Solar panel and battery: Having a solar panel charge a battery would make a much more reliable power source.
+- Sending notifications
+  - Wifi shield: We came to the revelation that that is not thinking globally and even in Andre’s case there is no Wi-Fi connection at the actual location of the electric fence.
+  - GMS shield: That would require obtaining a network connection, which is not within budget
+  - Xbee: Can communicate between multiple arduinos and cheeper ones can communicate 300 feet, which would work well for what we need.
+  
+
 ##Interactions with Client:
 ###Questions for Andre:
 
@@ -55,6 +67,6 @@ https://guides.github.com/activities/hello-world/
 
 4.	Fence can be discharged by a short as often as once a day and as rarely as once a month depending on the animals and 		their attitude
 
-5/6.	I have a Zareba 6 joule energizer, a two acre pioneer and two others. My understanding is it’s very high voltage very low current short duration bursts. You could probably look up the specs. If you need the model numbers I can give them to you. (According to the specs of these energizers we need something that can 	withstand 12000 volts and measure in a range of 0-5 amps.)
+5/6.	Sure what the voltage and current is I have a Zareba 6 joule energizer, a to acre pioneer and two others. My 			understanding is it’s very high voltage very low current short duration bursts. You could probably look up the specs. If 	you need the model numbers I can give them to you. (According to the specs of these energizers we need something that can 	withstand 12000 volts and measure in a range of 0-5 amps.)
 
 >>>>>>> origin/master
