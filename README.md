@@ -55,6 +55,6 @@ https://guides.github.com/activities/hello-world/
 
 4.	Fence can be discharged by a short as often as once a day and as rarely as once a month depending on the animals and 		their attitude
 
-5/6.	Sure what the voltage and current is I have a Zareba 6 joule energizer, a to acre pioneer and two others. My 			understanding is it’s very high voltage very low current short duration bursts. You could probably look up the specs. If 	you need the model numbers I can give them to you. (According to the specs of these energizers we need something that can 	withstand 12000 volts and measure in a range of 0-5 amps.)
+5/6.	I have a Zareba 6 joule energizer, a two acre pioneer and two others. My understanding is it’s very high voltage very low current short duration bursts. You could probably look up the specs. If you need the model numbers I can give them to you. (According to the specs of these energizers we need something that can 	withstand 12000 volts and measure in a range of 0-5 amps.)
 
 >>>>>>> origin/master
