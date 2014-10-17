@@ -37,8 +37,8 @@ Production cost must be under 375 Dollars.
   - Solar panel: Solar panels would be environentaly friendly but could be unreliable at night and on cloudy days.
   - Solar panel and battery: Having a solar panel charge a battery would make a much more reliable power source.
 - Sending notifications
-  - Wifi shield: We came to the revelation that that is not thinking globally and even in Andre’s case there is no Wi-Fi connection at the actual location of the electric fence.
-  - GMS shield: That would require obtaining a network connection, which is not within budget
+  - Wi-Fi shield: We came to the revelation that using Wi-Fi is not thinking globally because farms to not typically have Wi-Fi. Even in Andre’s case there is no Wi-Fi connection at the actual location of the electric fence.
+  - GMS shield: That would require obtaining a network connection, which is not within our budget
   - Xbee: Can communicate between multiple arduinos and cheeper ones can communicate 300 feet, which would work well for what we need.
   
 
