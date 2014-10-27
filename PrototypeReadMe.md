@@ -13,7 +13,7 @@ Materials:
 -	Copper wire
 -	Auxillary cord adaptor (for sensor)
 
-Procedure:
+####Procedure:
 1.	Gather materials from McGuckins, SparkFun, and Tim May
 2.	Assemble circuitry using sample circuit from SparkFun website
 3.	Modify SparkFun example code to fit Andre’s needs
