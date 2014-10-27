@@ -2,7 +2,7 @@
 
 ###Construction Process
 	
-Materials:
+####Materials:
 -	Arduino Pro 
 -	Non-Invasive Current Sensor
 -	330 ohm resistor
