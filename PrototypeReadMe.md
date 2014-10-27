@@ -1,15 +1,15 @@
 ##Construction Process
 	
 Materials:
-•	Arduino Pro 
-•	Non-Invasive Current Sensor
-•	330 ohm resistor
-•	10k ohm resistor
-•	10uF Capacitor
-•	10 jumper wires
-•	9 volt battery
-•	Copper wire
-•	Auxillary cord adaptor (for sensor)
+-	Arduino Pro 
+-	Non-Invasive Current Sensor
+-	330 ohm resistor
+-	10k ohm resistor
+-	10uF Capacitor
+-	10 jumper wires
+-	9 volt battery
+-	Copper wire
+-	Auxillary cord adaptor (for sensor)
 
 ##Procedure:
 1.	Gather materials from McGuckins, SparkFun, and Tim May
