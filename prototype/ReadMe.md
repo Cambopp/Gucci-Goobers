@@ -3,7 +3,7 @@
 ###Construction Process
 	
 ####Materials:
--	Arduino Pro 
+-	Arduino Pro RedBoard
 -	Non-Invasive Current Sensor
 -	330 ohm resistor
 -	10k ohm resistor
@@ -14,12 +14,12 @@
 -	Auxillary cord adaptor (for sensor)
 
 ####Procedure:
-1.	Gather materials from McGuckins, SparkFun, and Tim May
-2.	Assemble circuitry using sample circuit from SparkFun website
-3.	Modify SparkFun example code to fit Andre’s needs
-4.	Create artificial electric fence using battery and wire
-5.	Test prototype functionality using battery circuit
-6.	Test prototype functionality using pulsing circuit
+1.	Gather materials from McGuckins, SparkFun, and Tim May.
+2.	Assemble circuitry using sample circuit from SparkFun website.
+3.	Modify SparkFun example code to fit Andre’s needs.
+4.	Create artificial electric fence using battery and wire.
+5.	Test prototype functionality using battery circuit.
+6.	Test prototype functionality using pulsing circuit.
 
 ###Features
 
