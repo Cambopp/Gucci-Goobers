@@ -9,16 +9,16 @@ This is the repository for the Gucci Goobers, a group of freshman engineers at C
 
 
 ##Design Requirements:
-- The Sensor must be able to 
+- The sensor must be able to 
   - Withstand a voltage of 12000 V.
   - Measure a currents ranging between 0 and 5 Amps of pulsing current.
 - The Device must be able to
   - Transmit signal from one corner of the fence to another, and also to the “mother” Arduino. Corners can be between 100 and 2000 feet apart depending on the configuration of the fence.
   - Determine the location of short.
   - Withstand wind, rain, heat, snow and frost.
-- The Power source must be able to supply 5 volts to power the Arduino.
+- The power source must be able to supply 5 volts to power the Arduino.
 - The Arduino must be able to send an sms to the clients phone at least once a day and still remain under the budget.
-- The Production cost must be under 375 Dollars.
+- The production cost must be under 375 Dollars.
 
 
 
@@ -28,7 +28,7 @@ This is the repository for the Gucci Goobers, a group of freshman engineers at C
   - Specialized voltmeter for an electric fence: This was upward of 70$ and not within budget since our project requires four of them.
   - Non-invasive current sensor(5 Amps maximum): This would be unlikely to be damaged because it does not directly touch the fence and having a sensor that works with low current would give a more accurate reading compare to sensor that read up to 30 Amphere.
 - Minimizing search area: When a fence becomes grounded, someone must walk around the entire fence in search of what is causing the problem. We wanted to minimized the area that person has to search.
-  - Algorithim: An idea was to derived an algorithim that could tell where the grounding issue occured between two sensors.
+  - Algorithm: An idea was to derived an algorithm that could tell where the grounding issue occured between two sensors.
   - Four sensors: Putting four sensors along the fence would allow us to determine beetween what two sensors the grounding occured at. That way only one fourth of the fence needs to be searched for problems.
 - Power source
   - Electric fence: Early ideas were about drawing power from the electric fence itself, however it was not feasible for this project because when the fence becomes grounded, the electronics would lose their power supply.
