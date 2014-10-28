@@ -33,46 +33,29 @@ Images can be found on the "Prototype Images" page of the wiki.
 
  
 ###Code
-As it stands now, this is the code that was used in our prototype to accurately read current and print it to serial:
-
--#include <EmonLib.h>  //Hey, take that dash out from the front of the include statement!
-
-// EmonLibrary examples openenergymonitor.org, Licence GNU GPL V3
-
-
-EnergyMonitor emon1;                   // Create an instance
-int led = 13;
+#include <EmonLib.h>
+EnergyMonitor emon1;         
+ 
 void setup()
-{ 
-  pinMode(led, OUTPUT);
+{  
   Serial.begin(9600);
-  
-  emon1.current(1, 111.1);             // Current: input pin, calibration.
-}
+ 
+  emon1.current(5, 60);          
 
+}
+ 
 void loop()
 {
-  double Irms = emon1.calcIrms(1480);  // Calculate Irms only
+  
+  double Irms = emon1.calcIrms(1480); 
+  Serial.println(Irms);		       
+  
+  if (Irms < 0.01)
+  Serial.print("Andre your fence is down.");
+  else
+  Serial.print("Your fence is functioning.");
+  
+  delay(1000);
   
   
-  
-  Serial.print(" ");
-  Serial.println(Irms);		       // Irms
-  
- if (Irms < 0.01)
- {Serial.print("Andre your fence is down!");
-  // digitalWrite(led, HIGH);              The LED would not work, so this was omitted from the code.
-   //delay(500);
- //  digitalWrite(led, LOW);
-  // delay(500);
-  // digitalWrite(led, HIGH);
-  // delay(500);
- // digitalWrite(led, LOW); 
- }
- else
- {Serial.print("You're doing fine");
- } 
 }
-
-//Serial.print(Irms*230.0);	       // Apparent power -- We omitted this as well because we did not care about the power
-  
