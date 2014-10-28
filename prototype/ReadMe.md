@@ -35,7 +35,7 @@ Images can be found on the "Prototype Images" page of the wiki.
 ###Code
 As it stands now, this is the code that was used in our prototype to accurately read current and print it to serial:
 
--#include <EmonLib.h>
+-#include <EmonLib.h>  //Hey, take that dash out from the front of the include statement!
 
 // EmonLibrary examples openenergymonitor.org, Licence GNU GPL V3
 
