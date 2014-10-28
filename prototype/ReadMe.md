@@ -1,5 +1,7 @@
 ##Prototype
 
+Images can be found on the "Prototype Images" page of the wiki.
+
 ###Construction Process
 	
 ####Materials:
