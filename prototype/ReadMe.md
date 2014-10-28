@@ -30,5 +30,49 @@ Images can be found on the "Prototype Images" page of the wiki.
 ###Fallbacks
 
 -	Initially, we wanted the prototype to use the non-invasive current sensor to read a current value and then communicate that value to another arduino using an xbee. However, we were unable to get the xbee to function prior to the deadline. The xbee functionality will instead be the main part of our critical component. Another fallback of the prototype is the unaccounted costs that we encountered. The xbee will not function without an xbee shield. The addition of the xbee shield brings the price of the measuring station to around $80 without solar panels. This makes it near impossible to create four of these stations under budget. We learned that we must find an alternative to the xbee or cut down the number of measuring stations that we will manufacture. 
+-
  
+###Code
+As it stands now, this is the code that was used in our prototype to accurately read current and print it to serial:
+
+#include <EmonLib.h>
+
+// EmonLibrary examples openenergymonitor.org, Licence GNU GPL V3
+
+
+EnergyMonitor emon1;                   // Create an instance
+int led = 13;
+void setup()
+{ 
+  pinMode(led, OUTPUT);
+  Serial.begin(9600);
+  
+  emon1.current(1, 111.1);             // Current: input pin, calibration.
+}
+
+void loop()
+{
+  double Irms = emon1.calcIrms(1480);  // Calculate Irms only
+  
+  
+  
+  Serial.print(" ");
+  Serial.println(Irms);		       // Irms
+  
+ if (Irms < 0.01)
+ {Serial.print("Andre your fence is down!");
+  // digitalWrite(led, HIGH);              The LED would not work, so this was omitted from the code.
+   //delay(500);
+ //  digitalWrite(led, LOW);
+  // delay(500);
+  // digitalWrite(led, HIGH);
+  // delay(500);
+ // digitalWrite(led, LOW); 
+ }
+ else
+ {Serial.print("You're doing fine");
+ } 
+}
+
+//Serial.print(Irms*230.0);	       // Apparent power -- We omitted this as well because we did not care about the power
   
