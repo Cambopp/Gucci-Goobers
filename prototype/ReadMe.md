@@ -30,12 +30,12 @@ Images can be found on the "Prototype Images" page of the wiki.
 ###Fallbacks
 
 -	Initially, we wanted the prototype to use the non-invasive current sensor to read a current value and then communicate that value to another arduino using an xbee. However, we were unable to get the xbee to function prior to the deadline. The xbee functionality will instead be the main part of our critical component. Another fallback of the prototype is the unaccounted costs that we encountered. The xbee will not function without an xbee shield. The addition of the xbee shield brings the price of the measuring station to around $80 without solar panels. This makes it near impossible to create four of these stations under budget. We learned that we must find an alternative to the xbee or cut down the number of measuring stations that we will manufacture. 
--
+
  
 ###Code
 As it stands now, this is the code that was used in our prototype to accurately read current and print it to serial:
 
-#include <EmonLib.h>
+-#include <EmonLib.h>
 
 // EmonLibrary examples openenergymonitor.org, Licence GNU GPL V3
 
