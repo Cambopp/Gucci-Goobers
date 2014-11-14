@@ -44,9 +44,11 @@ Images that accompany the design report can be found on the wiki page.
 
 ##Testing & Anaylsis
 - Critical Parts & Analysis
-  - The critical part of our whole design, on which we presented, was determined to be the XBee modules working with the Arduinos and communicating with each other.  As such, we had to make sure that our code was correct and that our XBees could in fact talk to each other effectively.  This proved a success, and our presentation ultimately went well.  Under analysis, our Arduino seems to be reading currents correctly, even after soldering its components to the prototyping board. The XBees are communicating correctly and are outputting readings that make sense.  
+
+The critical part of our whole design, on which we presented, was determined to be the XBee modules working with the Arduinos and communicating with each other.  As such, we had to make sure that our code was correct and that our XBees could in fact talk to each other effectively.  This proved a success, and our presentation ultimately went well.  Under analysis, our Arduino seems to be reading currents correctly, even after soldering its components to the prototyping board. The XBees are communicating correctly and are outputting readings that make sense.  
 - Testing
-  - The last time we had a chance to test our current sensor in the real world was without the XBees, so we're still not sure how they will fare on an actual electric fence.  However, when we did test our current sensor on that fence, its readings were very reliable (and not distorted from the ambient electromagnetic fields in the ITLL).  We're very happy with this, and hope that the new code that we are in the process of writing can be used in our final design.
+
+The last time we had a chance to test our current sensor in the real world was without the XBees, so we're still not sure how they will fare on an actual electric fence.  However, when we did test our current sensor on that fence, its readings were very reliable (and not distorted from the ambient electromagnetic fields in the ITLL).  We're very happy with this, and hope that the new code that we are in the process of writing can be used in our final design.
 
 
 >>>>>>> origin/master
