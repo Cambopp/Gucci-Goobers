@@ -25,22 +25,22 @@ Images that accompany the design report can be found on the wiki page.
 
 
 ##Design Alternatives/Brainstorming
-- Measuring current/voltage
-  - Standard voltmeter or multimeter: The quick pulses of an electric fence would damage these.
-  - Specialized voltmeter for an electric fence: This was upward of 70$ and not within budget since our project requires four of them.
-  - Non-invasive current sensor(5 Amps maximum): This would be unlikely to be damaged because it does not directly touch the fence and having a sensor that works with low current would give a more accurate reading compare to sensor that read up to 30 Amphere.
-- Minimizing search area: When a fence becomes grounded, someone must walk around the entire fence in search of what is causing the problem. We wanted to minimized the area that person has to search.
-  - Algorithm: An idea was to derived an algorithm that could tell where the grounding issue occured between two sensors.
-  - Four sensors: Putting four sensors along the fence would allow us to determine beetween what two sensors the grounding occured at. That way only one fourth of the fence needs to be searched for problems.
-- Power source
-  - Electric fence: Early ideas were about drawing power from the electric fence itself, however it was not feasible for this project because when the fence becomes grounded, the electronics would lose their power supply.
-  - Solar panel: Solar panels would be environentaly friendly but could be unreliable at night and on cloudy days.
-  - Solar panel and battery: Having a solar panel charge a battery would make a much more reliable power source.
-- Sending notifications
-  - Wi-Fi shield: We came to the revelation that using Wi-Fi is not thinking globally because farms to not typically have Wi-Fi. Even in Andre’s case there is no Wi-Fi connection at the actual location of the electric fence.
-  - GMS shield: That would require obtaining a network connection, which is not within our budget
-  - Xbee: Can communicate between multiple arduinos and cheeper ones can communicate 300 feet, which would work well for what we need.
+The first step in the project was measuring current/ or voltage to tell if the fence is down.  The options in order to accomplish this where as follows:
+- Standard voltmeter or multimeter
+- Specialized voltmeter for an electric fence
+- Non-invasive current sensor(5 Amps maximum)
   
+The  option of a standard voltmeter or multimeter where ruled out early on because the quick pulses of an electric fence would damage these. In addition, a specialized voltmeter costs upward of 70$ and was not within budget because of our goal to have four stations. The non-invasive current senor was a much cheaper option (10$) and would not get damaged, so it was the best option. Specifically a a Amp maximum on the current sensor would yield accurate enough readings.
+When a fence becomes grounded, someone must walk around the entire fence in search of what is causing the problem. We wanted to minimized the area that person has to search by either using an algorithm or multiple ensors. The idea of deriving an algorithm that could tell where the grounding issue occured between two sensors was deemed something that could not be done in the instance of a grounded electric fence. However, putting four sensors along the fence would allow us to determine beetween what two sensors the grounding occured at. That way only one fourth of the fence would need to be searched for problems.
+
+Goals for powering the project were that it be reliable and self sufficient. One idea was to draw power from the electric fence itself, however it was not feasible for this project because when the fence becomes grounded, the electronics would lose their power supply. On the other side of the coin, solar panels would be environentaly friendly but could be unreliable at night and on cloudy days. Having a solar panel charge a battery would make a much more reliable power source because there would be extra charge for cloudy times and night, but would also not have batteries that would need replacement.
+
+Finally, there was the goal that notifications be send to the owner of the fence. Here were the different alternatives that were suggested:
+  - Wi-Fi shield
+  - GMS shield
+  - Xbee
+
+The cons of using a Wi-Fi shield were that using Wi-Fi is not thinking globally because farms do not typically have Wi-Fi. Even in Andre’s case there is no Wi-Fi connection at the actual location of the electric fence. A GMS shield would work well, but it would require obtaining a network connection, which is not within our budget and would require continued payments. XBee's were the final idea. They can communicate between multiple arduinos and cheeper XBee's can communicate 300 feet, which would work well for what we need. Additionaly, XBee's are easy to use with Arduinos.
 
 ##Testing & Anaylsis
 - Critical Parts & Analysis
