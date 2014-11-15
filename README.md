@@ -51,5 +51,21 @@ The critical part of our whole design, on which we presented, was determined to 
 
 The last time we had a chance to test our current sensor in the real world was without the XBees, so we're still not sure how they will fare on an actual electric fence.  However, when we did test our current sensor on that fence, its readings were very reliable (and not distorted from the ambient electromagnetic fields in the ITLL).  We're very happy with this, and hope that the new code that we are in the process of writing can be used in our final design.
 
-
+##Bill Of Materials
+  - Fence measuring unit($80)
+    - Arduino($17.50)
+    - Xbee($20)
+    - Weather Proof Case($13)
+    - Audio Jack($4.50)
+    - Xbee Shield and Stackable Headers($15)
+    - Current Sensor($10)
+  - Home Unit($52.50)
+    - Arduino($17.50)
+    - Xbee($20)
+    - Xbee Shield and Stackable Headers($15)
+  - Copper Wire and Battery for testing($8)
+  - Future (~$130)
+    - Solar Powee(~$30)
+    - Wi-Fi Shield(~$40)
+    - Poster($60)
 >>>>>>> origin/master
