@@ -53,7 +53,7 @@ To choose a solution we needed to decide on a power source, a measuring device, 
 The critical part of our whole design, on which we presented, was determined to be the XBee modules working with the Arduinos and communicating with each other.  As such, we had to make sure that our code was correct and that our XBees could in fact talk to each other effectively.  This proved a success, and our presentation ultimately went well.  Under analysis, our Arduino seems to be reading currents correctly, even after soldering its components to the prototyping board. The XBees are communicating correctly and are outputting readings that make sense.  
 - Testing
 
-The last time we had a chance to test our current sensor in the real world was without the XBees, so we're still not sure how they will fare on an actual electric fence.  However, when we did test our current sensor on that fence, its readings were very reliable (and not distorted from the ambient electromagnetic fields in the ITLL).  We're very happy with this, and hope that the new code that we are in the process of writing can be used in our final design.
+We tested the product at Jacob Springs farm on two occasions. The first time, we did so with only our prototype to ensure that the non-invasive current sensor could successfully detect whether the electric fence is on. We moved on in our design once we knew that it produced reliable readings. After the completion of our final product, we again went to Jacob Springs Farm to check again that the current sensor functions as well as to determine the effectiveness of the XBee communication. The current sensor successfully detected the functionality of the electric fence and then successfully transmitted the command to turn on the led on the home arduino. We tested the maximum distance of the XBee communication and found that 300 feet is the approximate maximum distance. This means that the home arduino will be able to recieve messages from the fence arduino when it is positioned in Andre's house, which is approximately 250 feet from the fence. 
 
 ##Bill Of Materials
   - Fence measuring unit($80)
@@ -69,7 +69,7 @@ The last time we had a chance to test our current sensor in the real world was w
     - Xbee Shield and Stackable Headers($15)
   - Copper Wire and Battery for testing($8)
   - Future (~$130)
-    - Solar Powee(~$30)
+    - Solar Power(~$30)
     - Wi-Fi Shield(~$40)
     - Poster($60)
   
