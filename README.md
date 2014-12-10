@@ -14,6 +14,7 @@ Images that accompany the design report can be found on the wiki page.
 
 -The Arduino Pro allows us to program our sensor.
 
+![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/xbee.png)
 -XBee technology allows us to communicate between different arduinos.
 
 ![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/fencepicture.png)
