@@ -20,6 +20,7 @@ Images that accompany the design report can be found on the wiki page.
 ![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/fencepicture.png)
 -The electric fence creates an electric circuit with the animal that it shocks and the ground. If the fence is grounded before the current reaches the animal, the animal does not feel any shock.
 
+![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/solidworkspic2.png)
 -Our initial plan was to have four measuring stations located at various locations on the fence. Due to unforeseen costs, we may not be able to have four stations.
 
 -This is a close up view of our initial plan of having a measuring station at each corner of the fence (drawing created using SolidWorks).
