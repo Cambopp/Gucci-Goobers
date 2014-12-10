@@ -9,23 +9,6 @@ Images that accompany the design report can be found on the wiki page.
 ##Background/Client Info:
   For the Gucci Goobers’ final project, we will be working with Andre Houssney from Jacob Springs Farm. A number of problems, or inconveniences, were posed at the farm, such as ensuring the chicken coop is closed at night, measuring the remaining water supply of the farm and cuing the ventilation of the greenhouse, among other things. We decided on working with the electric fence, which contains the livestock. The problem with the electric fence is that it can be taken down very easily through vegetation coming in contact with the fence and grounding the current, or animals breaking the fence. Many of the animals are very obedient, and once they’re shocked once they will not go near the fence again. However, some animals (such as the goats and sheep) are more persistent, and will test the fence regularly. If there is no shock emitted by the fence, the goats and sheep can escape. The goal of our project is to create a device which notifies our client when the fence is down. We would like to be able to detect where the problem is in relation to a fixed point. This would save the client a great deal of time. Without detecting the location of the shortage, they must walk the entire perimeter of the fence. This is not ideal as we are aiming to save the client as much time as possible. We believe this could benefit livestock farmers at an international level; saving them time and money, and, in turn, allowing them to be more productive.
 
-![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/currentsensor.png)
--The non-invasive current sensor reads the current in amperes by measuring the magnetic field that surrounds a circuit.
-
-![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/IMG_4975.jpg)
--The home arduino is encased in a protective acrylic box.
-
-![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/xbee.png)
--XBee technology allows us to communicate between different arduinos.
-
-![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/fencepicture.png)
--The electric fence creates an electric circuit with the animal that it shocks and the ground. If the fence is grounded before the current reaches the animal, the animal does not feel any shock.
-
-![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/solidworkspic2.png)
--This is a close up view of our initial plan of having a measuring station at each corner of the fence (drawing created using SolidWorks).
-
-![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/IMG_5017.JPG)
--The solar panel recharges the battery in the fence module.
 
 
 ##Design Requirements:
@@ -104,4 +87,30 @@ We tested the product at Jacob Springs farm on two occasions. The first time, we
 -The problem our project fixed was notifying our client when his electric fence has lost functionality. We used two Arduino Redboards, two XBees, two XBee shields, a non-invasive current sensor, rechargable batteries, and a solar panel, as well as wires, capacitors, and resistors to complete the circuit on our boards. The non-invasive current sensor is extremely important as it is the sole component which obatins the current reading from the fence. The XBees allow the two arduino boards to communicate with eachother, letting Andre know that his fence is down without him having to go out to the fence itself. Our Arduino that will be obtaining the current reading from the electric fence is enclosed in a waterproof Pelican case, protecting it from undesirable weather conditions (which will be occurring often now that it is Winter). The solar panel is attached to a pack containing rechargable batteries, which allows the solar panel to recharge the batteries. The batteries we have will be able to last a few days without sunlight before they will need to be charged; however, as long as there are sunny days, the batteries will be continuously recharged. Although our project was not very manufacturing heavy, it involved a lot of coding. We had to code the non-invasive current sensor, the two XBees, and we had to write our own code which determined when the actual fence itself was not working. The second arduino, that will be located in Andre's house (or wherever he so chooses to place it) is enclosed in an acrylic casing. There is a red LED light that is on this arduino - when the light is on, the electric fence is not working. When the light is off, the fence is working fine.
 
 For anyone tackling projects such as this one, I would suggest to always stay on top of your work. Use all of your class time wisely, because if you do not, you will just have to make up that time outside of class. I would also advise to come into each class with a goal that you would like to complete - even if it is just a small one - because some progress is better than none. In addition, stay in constant contact with your group members. It is a good feeling knowing that your members are each completing their respective assignments and if anyone needs help you know that someone will be there to assist you. Finally, don't wait for one specific task to get done before you start on another. If one task can't get done for whatever reason (i.e a piece you need for your project hasn't arrived yet) then move on to the next. It's a big waste of time and will only hurt you. Besides that, just stay on top of your work, stay positive, and don't be afraid to ask for help.
+
+##Pictures
+
+![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/currentsensor.png)
+###The non-invasive current sensor reads the current in amperes by measuring the magnetic field that surrounds a circuit.
+
+![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/IMG_4975.jpg)
+###The home arduino is encased in a protective acrylic box.
+
+![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/xbee.png)
+###XBee technology allows us to communicate between different arduinos.
+
+![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/fencepicture.png)
+-The electric fence creates an electric circuit with the animal that it shocks and the ground. If the fence is grounded before the current reaches the animal, the animal does not feel any shock.
+
+![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/solidworkspic2.png)
+-This is a close up view of our initial plan of having a measuring station at each corner of the fence (drawing created using SolidWorks).
+
+![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/IMG_5017.JPG)
+-The solar panel recharges the battery in the fence module.
+
+
+
+
+
+
 >>>>>>> origin/master
