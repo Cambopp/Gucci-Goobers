@@ -91,13 +91,10 @@ For anyone tackling projects such as this one, I would suggest to always stay on
 ##Pictures
 
 ![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/currentsensor.png)
-###The non-invasive current sensor reads the current in amperes by measuring the magnetic field that surrounds a circuit.
-
-![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/IMG_4975.jpg)
-###The home arduino is encased in a protective acrylic box.
+-The non-invasive current sensor reads the current in amperes by measuring the magnetic field that surrounds a circuit.
 
 ![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/xbee.png)
-###XBee technology allows us to communicate between different arduinos.
+-XBee technology allows us to communicate between different arduinos.
 
 ![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/fencepicture.png)
 -The electric fence creates an electric circuit with the animal that it shocks and the ground. If the fence is grounded before the current reaches the animal, the animal does not feel any shock.
@@ -105,12 +102,19 @@ For anyone tackling projects such as this one, I would suggest to always stay on
 ![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/solidworkspic2.png)
 -This is a close up view of our initial plan of having a measuring station at each corner of the fence (drawing created using SolidWorks).
 
+![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/IMG_4904.jpg)
+-XBee communication was one of the most difficult aspects of the project.
+
+![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/IMG_4975.jpg)
+-The home arduino is encased in a protective acrylic box.
+
 ![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/IMG_5017.JPG)
 -The solar panel recharges the battery in the fence module.
 
+![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/IMG_5016.JPG)
+-The fence module was tested extensively at Jacob Springs Farm.
 
-
-
-
+![]https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/IMG_5015.JPG)
+-The current sensor functions when attached to the high voltage electric fence.
 
 >>>>>>> origin/master
