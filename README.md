@@ -11,6 +11,19 @@ Images that accompany the design report can be found on the wiki page.
 
 ![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/fencepicture.png)
 -The non-invasive current sensor reads the current in amperes by measuring the magnetic field that surrounds a circuit.
+-The Arduino Pro allows us to program our sensor.
+https://drive.google.com/open?id=0BwUtwsHwnkmNY0cyX3NvbzFnejQ&authuser=0
+
+-XBee technology allows us to communicate between different arduinos.
+https://drive.google.com/open?id=0BwUtwsHwnkmNVFRaOUpyZ2xhMEE&authuser=0
+
+-The electric fence creates an electric circuit with the animal that it shocks and the ground. If the fence is grounded before the current reaches the animal, the animal does not feel any shock.
+https://drive.google.com/open?id=0BwUtwsHwnkmNMkJCeFE2VlJrN3c&authuser=0
+
+-Our initial plan was to have four measuring stations located at various locations on the fence. Due to unforeseen costs, we may not be able to have four stations.
+https://drive.google.com/open?id=0BwUtwsHwnkmNM29EbG4yTlFfYmM&authuser=0
+
+-This is a close up view of our initial plan of having a measuring station at each corner of the fence (drawing created using SolidWorks).
 
 ##Design Requirements:
 - The sensor must be able to 
