@@ -114,7 +114,7 @@ For anyone tackling projects such as this one, I would suggest to always stay on
 ![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/IMG_5016.JPG)
 -The fence module was tested extensively at Jacob Springs Farm.
 
-![]https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/IMG_5015.JPG)
+![](https://github.com/Cambopp/Gucci-Goobers/blob/master/Pictures/IMG_5015.JPG)
 -The current sensor functions when attached to the high voltage electric fence.
 
 >>>>>>> origin/master
